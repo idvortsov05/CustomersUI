@@ -1,0 +1,2 @@
+def verify_login_and_password(stored_username: str, stored_password_hash: str, client_username: str, client_password_hash: str) -> bool:
+    return stored_username == client_username and stored_password_hash == client_password_hash
